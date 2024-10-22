@@ -1,77 +1,77 @@
 {
     "gt": [
-        34,
-        4
+        79,
+        10
     ],
-    "fineTunedllama": {
+    "llama": {
         "run_0": {
             "raw_answers": [
-                "user\n\nWhat is the exact size of this acute angle? No explanation needed. Just returns the number.assistant\n\n30",
-                "user\n\nWhat is the exact size of this acute angle? No explanation needed. Just returns the number.assistant\n\n45"
+                "user\n\nWhat is the exact size of this acute angle? No explanation needed. Just return the number.assistant\n\n45",
+                "user\n\nWhat is the exact size of this acute angle? No explanation needed. Just return the number.assistant\n\n90"
             ],
             "parsed_answers": [
                 [
-                    30.0
+                    45.0
                 ],
                 [
-                    45.0
+                    90.0
                 ]
             ],
-            "mean": 37.5,
-            "mse": 848.5,
-            "mlae": 11.135789433602595,
+            "mean": 67.5,
+            "mse": 3778.0,
+            "mlae": 5.836050355058069,
             "times": [
-                6434.012413024902,
-                6037.961006164551
+                22865.232229232788,
+                6088.847398757935
             ],
             "forced_repetitions": 0
         },
         "run_1": {
             "raw_answers": [
-                "user\n\nWhat is the exact size of this acute angle? No explanation needed. Just returns the number.assistant\n\n90",
-                "user\n\nWhat is the exact size of this acute angle? No explanation needed. Just returns the number.assistant\n\n15"
+                "user\n\nWhat is the exact size of this acute angle? No explanation needed. Just return the number.assistant\n\n70",
+                "user\n\nWhat is the exact size of this acute angle? No explanation needed. Just return the number.assistant\n\n70"
             ],
             "parsed_answers": [
                 [
-                    90.0
+                    70.0
                 ],
                 [
-                    15.0
+                    70.0
                 ]
             ],
-            "mean": 52.5,
-            "mse": 1628.5,
-            "mlae": 11.709999211132706,
+            "mean": 70.0,
+            "mse": 1840.5,
+            "mlae": 5.113742166049188,
             "times": [
-                5999.291658401489,
-                6104.198455810547
+                6209.364175796509,
+                6051.950454711914
             ],
             "forced_repetitions": 0
         },
         "run_2": {
             "raw_answers": [
-                "user\n\nWhat is the exact size of this acute angle? No explanation needed. Just returns the number.assistant\n\n30",
-                "user\n\nWhat is the exact size of this acute angle? No explanation needed. Just returns the number.assistant\n\n90"
+                "user\n\nWhat is the exact size of this acute angle? No explanation needed. Just return the number.assistant\n\n45",
+                "user\n\nWhat is the exact size of this acute angle? No explanation needed. Just return the number.assistant\n\n30"
             ],
             "parsed_answers": [
                 [
-                    30.0
+                    45.0
                 ],
                 [
-                    90.0
+                    30.0
                 ]
             ],
-            "mean": 60.0,
-            "mse": 3706.0,
-            "mlae": 12.135749360410061,
+            "mean": 37.5,
+            "mse": 778.0,
+            "mlae": 4.7615512324444795,
             "times": [
-                6193.588972091675,
-                6096.835136413574
+                6112.807750701904,
+                6089.923143386841
             ],
             "forced_repetitions": 0
         },
-        "average_mlae": 11.660512668381786,
-        "std": 0.40972889593020523,
-        "confidence": 0.8030686360232022
+        "average_mlae": 5.237114584517246,
+        "std": 0.4472528415064099,
+        "confidence": 0.8766155693525635
     }
 }
